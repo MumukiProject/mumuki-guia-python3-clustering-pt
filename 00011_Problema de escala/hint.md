@@ -1,11 +1,11 @@
-Probablemente hayas notado que `iris_escalado` no paracer ser un DataFrame. Si no te terminás de dar cuenta, podés convertirlo a uno haciendo lo siguiente: 
-
+Você provavelmente notou que `iris_escalado` não parece ser um DataFrame. Se você não percebeu, pode convertê-lo em um fazendo o seguinte:
+ 
 ```python
-pd.DataFrame(iris_escalado, columns=iris.columns)
-``` 
-
-O incluso:
-
+pd.DataFrame(iris_scaled, column=iris.columns)
+```
+ 
+Ou ainda:
+ 
 ```python
-pd.DataFrame(iris_escalado, columns=iris.columns).describe()
+pd.DataFrame( iris_scaled, column= iris.columns).describe()
 ```

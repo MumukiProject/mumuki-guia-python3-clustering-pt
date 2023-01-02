@@ -10,19 +10,19 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló sólo `sepal_width` entre `-1` y `1`
+  value: Escalou apenas `sepal_width` entre `-1` e `1`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló todos los valores entre `-1` y `1`
+  value: Escalou todos os valores entre `-1` e `1`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló  sólo `sepal_width` entre aproximadamente `-3` y `3`
+  value: Escalou apenas `sepal_width` entre aproximadamente `-3` e `3`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló todos los valores entre aproximadamente `-3` y `3`
+  value: Escalou todos os valores entre aproximadamente `-3` e ` 3`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló todos los valores de forma que sus desviación estándar (`std`) sea
-    aproximadamente `1`
+  value: Escalou todos os valores para que seu desvio padrão (`std`) seja aproximadamente
+    `1`
   checked: true
 name: Problema de escala

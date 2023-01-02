@@ -1,13 +1,13 @@
-Como vimos, es necesario asegurarnos que los datos estén expresados en _dimensiones_ similares. ¿Eso significa que deberemos descartar nuestros datos cuando no cumplan esta propiedad?
+Como vimos, é necessário garantir que os dados sejam expressos em _dimensões_ semelhantes. Isso significa que devemos descartar nossos dados quando eles não atendem a essa propriedade?
 
-¡No! Afortundamente este problema tiene una respuesta menos radical: el _escalado de los datos_ :person_climbing:. Este procedimiento nos permitirá ajustar los datos y asegurarnos de que aún cuando algunas variables tomen valores más grandes no se usarán como predictor principal a la hora de clasificar. :warning: ¡Es un procedimiento es de vital importancia y debemos realizarlo antes de comenzar agrupar nuestros datos!
+Não! Felizmente, esse problema tem uma resposta menos radical: _escalonamento de dados_ :person_climbing:. Esse procedimento nos permitirá ajustar os dados e garantir que, mesmo quando algumas variáveis ​​assumem valores maiores, elas não serão usadas como o principal preditor na classificação. :warning: É um procedimento de vital importância e devemos realizá-lo antes de começar a agrupar nossos dados!
 
-El escalado puede ser resuelto muy fácilmente usando el `StandardScaler`, del módulo `scikitlearn` :tada::
+O dimensionamento pode ser resolvido facilmente usando o `StandardScaler`, do módulo `scikitlearn` :tada::
 
 ```python
 scaler = StandardScaler()
-iris_escalado = scaler.fit_transform(iris)
+scaled_iris = scaler.fit_transform(iris)
 ```
 
-> Ejecutá este código en tu cuaderno. ¿Qué hizo? ¿Cómo quedaron los datos?
+> Execute este código no seu notebook. Que fez? Como ficaram os dados?
 
