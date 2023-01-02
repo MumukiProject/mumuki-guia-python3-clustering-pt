@@ -10,24 +10,26 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` tiene 4 columnas"
+  value: "`iris` tem 4 colunas"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` tiene 5 columnas"
+  value: "`iris` tem 5 coluna"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` contiene información de 150 observaciones"
+  value: "`iris` contém informações para 150 observações"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` contiene información de 200 observaciones"
+  value: "`iris` contém informações para 200 observações"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: el largo del sépalo (`sepal_length`) está aproximadamente entre 4,5 y 8 centímetros
+  value: o comprimento da sépala (`sepal_length`) é aproximadamente entre 4,5 e 8
+    centímetros
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: el largo del pétalo (`petal_length`) está aproximadamente entre 2,5 y 5 centímetros
+  value: o comprimento da pétala (`petal_length`) é aproximadamente entre 2,5 e 5
+    centímetros
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` tiene valores nulos (`nan`) en sus columnas"
+  value: "`iris` tem valores nulos (`nan`) em suas colunas"
   checked: false
-name: Un ojo en el Iris
+name: Olhando para a íris
