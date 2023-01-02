@@ -19,7 +19,7 @@ Por outro lado, lembre-se que você pode criar um `DataFrame` do zero usando `pd
   {"nome": "Umi", "idade": 25}
 ])
 ム pessoas
-	nome idade
+  nome idade
 0 Dani 31
 1 Feli 48
 2 Umi 25
