@@ -29,7 +29,7 @@ kmeans = KMeans (
   max_iter=300,
   random_state=42
 )
-kmeans.fit(iris_scaled)
+kmeans.fit(iris_escalado)
 ```
 
 Em seguida, podemos consultar qual cluster foi encontrado para cada observação...
