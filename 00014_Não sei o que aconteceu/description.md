@@ -1,20 +1,18 @@
-Quizás los resultados anteriores no sean tan evidentes como esperábamos :confused:. 
+Talvez os resultados acima não sejam tão óbvios quanto esperávamos :confused:.
 
-Para entenderlos mejor resulta en general más útil graficar la distribución de puntos de los pares de variables, pintando cada punto según el color correspondiente al etiquetado :label:. Por ejemplo, así podemos graficar `petal_length` vs `petal_width` :sparkles::
+Para entendê-los melhor, geralmente é mais útil graficar a distribuição de pontos para os pares de variáveis, pintando cada ponto de acordo com a cor correspondente à marcação :label:. Por exemplo, podemos traçar `petal_length` vs `petal_width` :sparkles::
 
 ```python
 sns.scatterplot(
-  data = iris_etiquetado,
-  x = "petal_length", 
-  y = "petal_width", 
-  hue = "cluster", 
-  palette = "tab10", # más información sobre colores, acá: https://seaborn.pindice_2data.org/tutorial/color_palettes.html 
+  data = label_iris,
+  x = "petal_length",
+  y = "petal_width",
+  hue = "cluster",
+  paleta = " tab10", # mais informações sobre cores, aqui: https://seaborn.pydata.org/tutorial/color_palettes.html
   alpha = 0.5
 )
 ```
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/petal_vs_petal_1672615508851.png" alt="petal_vs_petal_1672615508851.png" width="auto" height="auto">
 
-
-> Pero para entender realmente al modelo, vamos a necesitar graficar cada par de variables. ¿Te animás a intentarlo? ¿Qué conclusiones podés sacar?
-
+> Mas para realmente entender o modelo, vamos precisar graficar cada par de variáveis. Você se atreve a tentar? Que conclusões você pode tirar?
