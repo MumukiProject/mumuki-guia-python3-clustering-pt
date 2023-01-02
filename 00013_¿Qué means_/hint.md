@@ -1,1 +1,0 @@
-Quizás `pd.value_counts` pueda ayudarte :relaxed:
