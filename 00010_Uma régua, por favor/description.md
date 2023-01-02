@@ -14,7 +14,7 @@ Uma delas é assumir que os dados são pontos no espaço, então se a _distânci
 Por exemplo, se quisermos calcular a distância euclidiana entre dois pontos em um plano, <code>(x<sub>1</sub>, y<sub>1</sub>)</code> e <code>(x<sub>2</sub>, y<sub>2</sub>)</code>, nós pode se basear neste teorema, assim:
 
 <pre>
-<code>distância<sup>2</sup> = (x<sub>1</sub> - x<sub >2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
+<code>distância<sup>2</sup> = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
 </pre>
 
 Como esta definição é tão útil, a biblioteca `scipy` já a suporta (na forma da função `cdist`):
