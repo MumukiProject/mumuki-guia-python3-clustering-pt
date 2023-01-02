@@ -1,1 +1,1 @@
-Talvez `pd.value_counts` possa ajudá-lo :relaxed:
+Talvez `pd.value_counts` possa ajudar :relaxed:
