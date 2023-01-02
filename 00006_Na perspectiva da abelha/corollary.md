@@ -1,1 +1,1 @@
-¡Muy bien! Quizás de tanto realizar este histograma, hayas notado que las observaciones de `sepal_length` en general se encuentran cerca de un valor, aproximadamente en torno a los 5,8 cm, ¿no? :eyes: Mirá nuevamente tus histogramas con esto en mente y nos vemos en el siguiente ejercicio.  
+Muito bom 🐝! Talvez de tanto fazer esse histograma, você tenha notado que as observações de `sepal_length` geral estão próximas de um ponto, aproximadamente em torno de 5,8 cm, certo? :eyes: Olhe novamente para seus histogramas com isso em mente e até o próximo exercício. 
