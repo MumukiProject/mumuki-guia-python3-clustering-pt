@@ -1,6 +1,6 @@
 Como você provavelmente concluiu, a classificação dos dados é subjetiva, pois depende de como medimos a similaridade entre as observações :straight_ruler:. E há muitas maneiras de fazer isso!
 
-Uma delas é assumir que os dados são pontos no espaço, então se a _distância_ entre os pontos for definida e a separação entre dois registros for medida, pode-se obter a similaridade entre eles. Uma das maneiras mais fáceis de calcular a distância entre dois pontos é o **Euclidiano**, baseado no famoso [Teorema de Pitágoras](https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras) 📐 que diz nós em um triângulo retângulo...
+Uma delas é assumir que os dados são pontos no espaço, então se a _distância_ entre os pontos for definida e a separação entre dois registros for medida, pode-se obter a similaridade entre eles. Uma das maneiras mais fáceis de calcular a distância entre dois pontos é o **euclidiana**, baseado no famoso [Teorema de Pitágoras](https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras) 📐 que diz nós em um triângulo retângulo...
 
 <a href="https://commons.wikimedia.org/w/index.php?curid=617373" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/346px-Rtriangle.svg.png?20190718074431" alt="Triângulo retângulo, cortesia da Wikipedia" width="250px" height="auto"></a>
 
