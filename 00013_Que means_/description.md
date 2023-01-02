@@ -8,7 +8,7 @@ K-means (ou _k-medias_, em portugês) é um método que agrupa as observações 
  2. Selecionar aleatoriamente k observações do conjunto de dados como [_centróides_](https://pt.wikipedia.org/wiki/Centroide) iniciais, ou seja, os dados aos quais a distância é calculada para delimitar o grupo com a menor variância interna;
  3. Calcular a distância de todos os dados ao centróide, para definir qual deles está mais próximo;
  4. Para cada um dos K clusters, recalcular o seu centróide. A posição do centróide atualiza-se tomando como novo centróide a posição da média das observações pertencentes ao referido grupo;
- 5. Repetir as etapas 3 e 4 até que os centróides não se movam, ou se movam abaixo de uma distância limite em cada etapa, ou o número de iterações definido antecipadamente seja alcançado.
+ 5. Repetir os passos 3 e 4 até que os centróides não se movam, ou se movam abaixo de uma distância limite em cada etapa, ou o número de iterações definido antecipadamente seja alcançado.
 
 ...até encontrar os melhores k grupos:
 
