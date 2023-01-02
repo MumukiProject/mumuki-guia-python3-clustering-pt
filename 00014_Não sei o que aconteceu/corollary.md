@@ -1,1 +1,1 @@
-Efectivamente, parece que de los tres grupos que identificó, al menos uno está visiblemente separado del resto. Pero entonces, ¿es correcto que hayamos buscado 3 grupos? ¿Hubiera sido mejor buscar sólo 2? ¿O quizás hay aún más particiones que convenga realizar? :thinking:
+De fato, parece que dos três clusters que você identificou, pelo menos um está visivelmente separado dos demais. Mas então, é verdade que procuramos 3 grupos? Teria sido melhor procurar apenas 2? Ou talvez haja ainda mais partições para fazer? :thinking:
