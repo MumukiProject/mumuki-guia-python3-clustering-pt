@@ -33,4 +33,4 @@ iris.columns = [col.replace(" (cm)", "").replace(" ", "_") for col in iris .colu
 iris
 ```
 
-> Agora é a sua vez! Carregue este lote de dados em um novo notebook e responda qual das seguintes afirmações está correta:
+> Agora é a sua vez! Carregue este lote de dados em um novo caderno e responda qual das seguintes afirmações está correta:

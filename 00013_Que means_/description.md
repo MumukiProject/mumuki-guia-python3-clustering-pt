@@ -43,4 +43,4 @@ kmeans.labels_
 kmeans.cluster_centers_
 ```
 
-> 🫵 É a sua vez! Execute o código acima no seu cuaderno e responda: quantos membros o `KMeans` encontrou em cada grupo?
+> 🫵 É a sua vez! Execute o código acima no seu caderno e responda: quantos membros o `KMeans` encontrou em cada grupo?

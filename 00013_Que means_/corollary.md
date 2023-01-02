@@ -1,9 +1,9 @@
-¡Perfecto! Si quisieramos por ejemplo saber no _cuántos_ miembros fueron asignados a cada grupo, sino _cuáles_, podríamos hacer lo siguiente: 
+Perfeito! Se quiséssemos saber, por exemplo, não _quantos_ membros foram atribuídos a cada grupo, mas _quais_, poderíamos fazer o seguinte:
 
 ```python
-iris_etiquetado = iris.copy()
-iris_etiquetado["cluster"] =  kmeans.labels_ 
-iris_etiquetado
+iris_labeled = iris.copy()
+iris_labeled["cluster"] = kmeans.labels_
+iris_labeled
 ```
 
-¡Probalo en tu cuaderno!
+Experimente no seu caderno!
