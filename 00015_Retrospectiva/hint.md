@@ -1,26 +1,26 @@
-Para hacer un gráfico de líneas podés usar el método `plot.line` de `pandas` :panda_face:. Por ejemplo, si tu tabla de inercias se llama `inercias` y tiene dos columnas `k` e `inercia`, podés hacerlo así:
+Para fazer um gráfico de linha você pode usar o método `plot.line` de `pandas` :panda_face:. Por exemplo, se sua tabela de inércia é chamada `inertias` e tem duas colunas `k` e `inertia`, você pode fazer assim:
 
 ```python
-inercias.plot.line(x = "k", y = "inercia")
+inertias.plot.line(x = "k", y = "inertia"))
 ```
 
-Alternativamente, podés hacer lo mismo (pero más bonito :star2:) con `seaborn` usando `pointplot`: 
+Alternativamente, você pode fazer o mesmo (mas melhor :star2:) com `seaborn` usando `pointplot`:
 
 ```python
-sns.pointplot(data = inercias, x = "k", y = "inercia")
+sns.pointplot(data = inertias, x = "k", y = "inertia")
 ```
 
-Por otro lado, recordá que podés crear un `DataFrame` desde cero usando `pd.DataFrame()` y luego agregarle, una a una, sus columnas. :arrows_counterclockwise: Y si eso se vuelve complicado, también podés convertir una lista de diccionarios en un `DataFrame` de la siguiente forma: 
+Por outro lado, lembre-se que você pode criar um `DataFrame` do zero usando `pd.DataFrame()` e então adicionar suas colunas, uma a uma. :arrows_counterclockwise: E se isso ficar complicado, você também pode converter uma lista de dicionários em um `DataFrame` assim:
 
 ```python
-ム personas = pd.DataFrame([
-  {"nombre": "Dani", "edad": 31}, 
-  {"nombre": "Feli", "edad": 48}, 
-  {"nombre": "Umi", "edad": 25}
+ム pessoas = pd.DataFrame([
+  {"name": "Dani", "age ": 31},
+  {"nome": "Feli", "idade": 48},
+  {"nome": "Umi", "idade": 25}
 ])
-ム personas
-    nombre 	edad
-0 	Dani 	  31
-1 	Feli 	  48
-2 	Umi 	  25
+ム pessoas
+	nome idade
+0 Dani 31
+1 Feli 48
+2 Umi 25
 ```
