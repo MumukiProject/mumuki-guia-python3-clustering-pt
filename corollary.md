@@ -1,3 +1,3 @@
-¡Felicitaciones! Hemos aprendido a detectar patrones en datos continuos sin etiquetas. 
+Parabéns! 🥳:confetti_ball::tada: Aprendemos a detectar padrões em dados contínuos não rotulados.
 
-Estos métodos nos permiten encontrar similitudes entre las observaciones de modo que podamos agruparlas según características en común y diferenciarlas de los otros grupos de observaciones.
+Esses métodos nos permitem encontrar semelhanças entre as observações para que possamos agrupá-las com base em características comuns e diferenciá-las de outros grupos de observações.
