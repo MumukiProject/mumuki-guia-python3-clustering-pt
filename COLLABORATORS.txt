@@ -1,1 +1,1 @@
-Este recorrido se basa en el material  [Clustering](https://github.com/AJVelezRueda/Fundamentos_de_informatica/blob/master/Ciencia_de_datos/Clustering.md) de Ana Julia Velez Rueda.
+Este passeio é baseado no material [Clustering](https://github.com/AJVelezRueda/Fundamentos_de_informatica/blob/master/Ciencia_de_datos/Clustering.md) de Ana Julia Velez Rueda

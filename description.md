@@ -1,5 +1,5 @@
-Ya realizamos predicciones, partiendo de lotes de datos previamente etiquetados :label:. Pero, ¿podríamos aplicar técnicas de aprendizaje automático aún sin etiquetas?
+Já fizemos previsões, a partir de lotes de dados marcados anteriormente com :label:. Mas poderíamos aplicar técnicas de aprendizado de máquina mesmo sem rótulos?
 
-¡Sí! El análisis de grupos (o _clustering_, en inglés) es un método de aprendizaje _no supervisado_ que nos permitirá, a partir de un conjunto de datos no etiquetados de entrada y sin conocer previamente cuál será la salida, obtener información, en la forma de grupos donde sus miembros tienen características similares 🤯. 
+Sim! A análise de agrupamento (ou _clustering_, em inglês) é um método de aprendizado _não supervisionado_ que nos permitirá, a partir de um conjunto de dados de entrada não rotulados e sem saber previamente qual será o resultado, obter informações, na forma de grupos onde seus membros têm características 🤯.
 
-¡Descubramos cómo funciona!
+Vamos descobrir como funciona!
