@@ -1,12 +1,12 @@
-- name: 'Cantidad de miembros del cluster 0'
+- name: 'Número de membros do cluster 0'
   keys:
     c0:
       equal: 47
-- name: 'Cantidad de miembros del cluster 1'
+- name: 'Número de membros do cluster 1'
   keys:
     c1:
       equal: 50
-- name: 'Cantidad de miembros del cluster 2'
+- name: 'Número de membros do cluster 2'
   keys:
     c2:
       equal: 53
