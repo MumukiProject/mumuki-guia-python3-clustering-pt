@@ -17,4 +17,4 @@ iris["sepal_length"].value_counts().sort_index().plot.bar()
 
 ...mas mais adequado para valores contínuos.
 
-> Faça esse gráfico em seu notebook, experimentando diferentes valores de `binwidth` e responda: o que acontece se aumentarmos o tamanho dos bins?
+> Faça esse gráfico no seu cuaderno, experimentando diferentes valores de `binwidth` e responda: o que acontece se aumentarmos o tamanho dos bins?
