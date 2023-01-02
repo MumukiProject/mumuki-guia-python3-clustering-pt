@@ -1,4 +1,4 @@
-Para ter uma ideia geral do comportamento dos dados, podemos plotar _a distribuição de frequência_ das diferentes variáveis, usando um histograma (função `histplot` de `seaborn` 🐚). Por exemplo, podemos obter o histograma de `sepal_length` assim:
+Para ter uma ideia geral do comportamento dos dados, podemos graficar _a distribuição de frequência_ das diferentes variáveis, usando um histograma (função `histplot` de `seaborn` 🐚). Por exemplo, podemos obter o histograma de `sepal_length` assim:
 
 
 ```python
