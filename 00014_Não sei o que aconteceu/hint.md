@@ -1,13 +1,13 @@
-Plotar todas as variáveis manualmente pode ser tedioso, e generalizar essa tarefa também não é trivial 😰. Como ajuda, deixamos o código já resolvido:
+Graficar todas as variáveis manualmente pode ser tedioso, e generalizar essa tarefa também não é trivial 😰. Como ajuda, deixamos o código já resolvido:
 
 ```python
 colores = "tab10" 
-columnas = iris.columns
+colunas = iris.columns
 
-for indice_1 in range(0, len(columnas)):
-  for indice_2 in range(indice_1 + 1, len(columnas)): 
+for indice_1 in range(0, len(colunas)):
+  for indice_2 in range(indice_1 + 1, len(colunas)): 
 
-    print(columnas[indice_1], "vs", columnas[indice_2])
+    print(colunas[indice_1], "vs", colunas[indice_2])
     sns.scatterplot(
         x = iris_escalado[:,indice_1], # esta sintaxe nos permite acessar a enésima coluna
         y = iris_escalado[:,indice_2], # de uma matriz
@@ -26,8 +26,8 @@ for indice_1 in range(0, len(columnas)):
     plt.show()
 ```
 
-Como verás, es similar al que ya te habíamos presentado, pero: 
+Como você verá, é semelhante ao que já apresentamos, mas:
 
-1. Estamos graficando las variables escaladas;
-2. Superponemos un segundo gráfico con los centros de cada cluster.
+1. Estamos graficando as variáveis escaladas;
+2. Sobrepomos um segundo grafo com os centróides de cada cluster.
  
