@@ -10,15 +10,15 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los miembros de <code>cluster<sub>0</sub></code> están claramente separados
-    del resto
+  value: Os membros do <code>cluster<sub>0</sub></code> estão claramente separados
+    dos demais
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los miembros de <code>cluster<sub>1</sub></code> están claramente separados
-    del resto
+  value: Os membros do <code>cluster<sub>1</sub></code> estão claramente separados
+    dos demais
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los miembros de <code>cluster<sub>2</sub></code> están claramente separados
-    del resto
+  value: Os membros do <code>cluster<sub>2</sub></code> estão claramente separados
+    dos demais
   checked: false
 name: Não sei o que aconteceu
