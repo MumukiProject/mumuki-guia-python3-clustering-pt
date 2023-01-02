@@ -12,7 +12,7 @@ K-means (ou _k-medias_, em portugês) é um método que agrupa as observações 
 
 ...até encontrar os melhores k grupos:
 
-<a href="https://commons.wikimedia.org/wiki/File:K-means_convergence.gif" target="_blank"><img src="https:/ /upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif" alt="KMeans convergência cortesia da Wikipedia" width="250px" height="auto"></a>
+<a href="https://commons.wikimedia.org/wiki/File:K-means_convergence.gif" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif" alt="KMeans convergência cortesia da Wikipedia" width="250px" height="auto"></a>
 
 Por exemplo, se nós definir arbitrariamente que vamos procurar 3 grupos...
 
