@@ -24,4 +24,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '6'
   checked: true
-name: Cierre de siluetas
+name: Fechamento de silhuetas
