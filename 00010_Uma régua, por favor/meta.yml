@@ -10,23 +10,23 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo de las distancias falla
+  value: O cálculo das distâncias falha
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo no falla y no se observa nada extraño en los resultados
+  value: O cálculo não falha e nada incomum é observado nos resultados
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo no falla, pero los cambios de `x` pasan casi desapercibidos
+  value: O cálculo não falha, mas mudanças em `x` são quase despercebidas
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo no falla, pero los cambios de `y` pasan casi desapercibidos
+  value: O cálculo não falha, mas mudanças em `y` são quase despercebidas
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo no falla, pero la distancia resulta casi completamente explicada
-    por los cambios de `x`
+  value: O cálculo não falha, mas a distância é quase completamente explicada por
+    mudanças em `x`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El cálculo no falla, pero la distancia resulta casi completamente explicada
-    por los cambios de `y`
+  value: O cálculo não falha, mas a distância é quase completamente explicada por
+    mudanças em `y`
   checked: true
 name: Uma régua, por favor

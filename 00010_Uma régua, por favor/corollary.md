@@ -1,3 +1,4 @@
-¡Muy bien! Como observaste, en este ejemplo `y` termina teniendo demasiada influencia en la distancia, haciendo que los cambios de `x` sean marginales. ¡Estamos perdiendo información valiosa! :speak_no_evil: 
+Muito bom! Como você notou, neste exemplo `y` acaba tendo muita influência na distância, fazendo que as mudanças de `x` sejam marginais. Estamos perdendo informações valiosas! :speak_no_evil:
 
-Por eso es que vamos a necesitar hacer un tratamiento extra a los datos 💆. 
+É por isso que vamos precisar fazer algum tratamento extra para os dados 💆.
+
