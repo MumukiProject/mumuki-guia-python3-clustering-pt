@@ -1,4 +1,4 @@
-Quando buscamos fazer previsões, geralmente trabalhamos com algoritmos de **aprendizado supervisionado**: métodos que, a partir de dados rotulados, permitem reconstruir as relações entre variáveis ​​e rótulos. Dentro desse conjunto de algoritmos, podemos identificar dois subtipos principais: **regressão** e **classificação**.
+Quando buscamos fazer previsões, geralmente trabalhamos com algoritmos de **aprendizado supervisionado**: métodos que, a partir de dados rotulados, permitem reconstruir as relações entre variáveis e rótulos. Dentro desse conjunto de algoritmos, podemos identificar dois subtipos principais: **regressão** e **classificação**.
 
 |              	|   	Regressão     	| 	Classificação       	|
 |:-----------------|------------------------|---- -------------------------|
