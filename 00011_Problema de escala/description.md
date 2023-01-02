@@ -6,7 +6,7 @@ O dimensionamento pode ser resolvido facilmente usando o `StandardScaler`, do m√
 
 ```python
 scaler = StandardScaler()
-scaled_iris = scaler.fit_transform(iris)
+iris_escalado = scaler.fit_transform(iris)
 ```
 
 > Execute este c√≥digo no seu caderno. Que fez? Como ficaram os dados?
