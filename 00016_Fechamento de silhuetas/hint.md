@@ -1,1 +1,1 @@
-:warning: Si optás por realizar los múltiples gráficos de silhouette dentro de una misma celda y/o utilizando un `for`, recordá incluir una invocación a `plt.show()` para que los mismos no se solapen. 
+:warning: Se você optar por fazer vários gráficos de silhueta dentro da mesma célula e/ou usar um `for`, lembre-se de incluir uma chamada para `plt.show()` para que eles não se sobreponham.
