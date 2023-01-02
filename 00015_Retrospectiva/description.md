@@ -1,19 +1,19 @@
-Para evaluar cuán bien funcionó nuestro agrupamiento y saber si la cantidad de grupos es adecuada, podemos calcular cuán compactos son los grupos obtenidos. Partiendo de la base que un agrupamiento es mejor si todos los elementos del grupo están lo más cerca posible de su centro, podemos sumar las distancias de cada punto a su respectivo centro y usar eso como medida. A este valor se lo denomina _inercia_ y puede obtenerse haciendo:
+Para avaliar o quão bem nosso clustering funcionou e se o número de clusters é adequado, podemos calcular o quão compactos são os clusters resultantes. Partindo da base de que um agrupamento é melhor se todos os elementos do grupo estiverem o mais próximo possível do seu centro, podemos somar as distâncias de cada ponto ao seu respectivo centro e usar isso como medida. Este valor é chamado _inertia_ e pode ser obtido fazendo:
 
 ```python
 ム kmeans.inertia_
 139.82049635974974
 ```
 
-Si entrenamos `KMeans` con diferentes valores de `k` obtendremos valores de inercia también diferentes: naturalmente, cuanto más grande `k` :arrow_upper_right:, más pequeña la inercia será :arrow_lower_right:. Pero entonces la respuesta al problema de optimizar la inercia no tiene solución práctica, ¿verdad? ¡La inercia será `0` cuando `k` sea igual al número de observaciones! :broken_heart:
+Se treinarmos `KMeans` com diferentes valores de `k` também obteremos diferentes valores de inércia: é claro, quanto maior `k` :arrow_upper_right:, menor será a inércia :arrow_lower_right:. Mas então a resposta para o problema de otimização da inércia não tem solução prática, certo? A inércia será `0` quando `k` for igual ao número de observações! :broken_heart:
 
-Bueno, no es necesario llegar a tal extremo, que además nos llevaría al absurdo de que cada grupo tuviera un único elemento. :stuck_out_tongue_closed_eyes: Por el contrario, lo que se suele aplicar es el _método del codo_, que consiste en encontrar un valor de `k` tal que el **cambio** en la inercia a partir de allí sea mucho más lento. ¿Y por qué se le llama método del codo? Esto es porque si graficamos los valores de inercia para cada uno de los `k` en el rango en que estamos buscando...
+Bem, não é necessário ir a tal extremo, o que também nos levaria ao absurdo de cada grupo ter um único elemento. :stuck_out_tongue_closed_eyes: Em vez disso, o que geralmente é aplicado é o _método do cotovelo_, que é encontrar um valor de `k` de modo que a **mudança** na inércia a partir daí seja muito mais lenta. E por que é chamado de método do cotovelo? Isso ocorre porque se plotarmos os valores de inércia para cada um dos `k` no intervalo que estamos procurando...
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/elbow_1672636555657.png" alt="elbow_1672636555657.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/iris_elbow_1672638446790.png" alt="iris_elbow_1672638446790.png" width="auto" height="auto">
 
-...hallaremos a nuestro `k` óptimo en el "codo" que se forma (en el gráfico de ejemplo se encuentra en `k = 4`).
+...encontraremos nosso `k` ótimo no "cotovelo" que é formado (em o exemplo do gráfico é encontrado em `k = 4`).
 
-> Veamos si se va entendiendo: ejecutá nuevamente al algoritmo `KMeans` sobre nuestro `iris_escalado`, pero probando con (todos los) valores de `k` desde `2` a `9` y guardá sus valores de inercia en un `DataFrame`. Luego realizá un gráfico de líneas de `k` vs `inercia`.
+> Vamos ver se ficou claro: execute o algoritmo `KMeans` novamente em nosso `scaled_iris`, mas tente com (todos) os valores de `k` de `2` a `9` e salve seus valores de inércia em um `DataFrame`. Em seguida, faça um gráfico de linha de `k` vs `inércia`.
 >
-> ¿Cuál es el mejor valor de `k` según este criterio?
+> Qual é o melhor valor de `k` de acordo com este critério?
 >
