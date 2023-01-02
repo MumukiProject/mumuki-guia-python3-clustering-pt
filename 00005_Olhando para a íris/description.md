@@ -29,7 +29,7 @@ iris = datasets.load_iris(as_frame=True )
 print (iris['DESCR'])
 
 iris = iris["data"]
-iris.columns = [col.replace(" (cm)", "").replace(" ", "_") for col in iris .columns ]
+iris.columns = [col.replace(" (cm)", "").replace(" ", "_") for col in iris.columns]
 iris
 ```
 
