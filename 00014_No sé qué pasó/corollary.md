@@ -1,0 +1,1 @@
+Efectivamente, parece que de los tres grupos que identificó, al menos uno está visiblemente separado del resto. Pero entonces, ¿es correcto que hayamos buscado 3 grupos? ¿Hubiera sido mejor buscar sólo 2? ¿O quizás hay aún más particiones que convenga realizar? :thinking:

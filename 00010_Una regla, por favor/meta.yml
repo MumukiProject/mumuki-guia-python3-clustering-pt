@@ -1,0 +1,32 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo de las distancias falla
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo no falla y no se observa nada extraño en los resultados
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo no falla, pero los cambios de `x` pasan casi desapercibidos
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo no falla, pero los cambios de `y` pasan casi desapercibidos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo no falla, pero la distancia resulta casi completamente explicada
+    por los cambios de `x`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El cálculo no falla, pero la distancia resulta casi completamente explicada
+    por los cambios de `y`
+  checked: true
+name: Una regla, por favor

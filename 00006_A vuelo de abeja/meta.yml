@@ -1,0 +1,21 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La cantidad de divisiones (barras) aumenta
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La cantidad de divisiones (barras) se mantiene igual
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La cantidad de divisiones (barras) se disminuye
+  checked: true
+name: A vuelo de abeja

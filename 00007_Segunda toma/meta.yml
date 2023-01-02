@@ -1,0 +1,30 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Todas las variables presentan aproximadamente la misma distribución
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`sepal_width` concentra sus observaciones en torno a su mediana"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`sepal_width` es la única variable que no concentra sus observaciones en
+    torno a un único valor"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`petal_length` es la única variable que no concentra sus observaciones en
+    torno a un único valor"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`petal_width` y `petal_length` son dos variables que no concentran sus observaciones
+    en torno a un único valor"
+  checked: true
+name: Segunda toma

@@ -1,0 +1,5 @@
+- name: 'Valor óptimo de <code>k</code>'
+  keys:
+    k:
+      match: ^3|5$
+                  

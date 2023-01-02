@@ -1,0 +1,33 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`iris` tiene 4 columnas"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`iris` tiene 5 columnas"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`iris` contiene información de 150 observaciones"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`iris` contiene información de 200 observaciones"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: el largo del sépalo (`sepal_length`) está aproximadamente entre 4,5 y 8 centímetros
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: el largo del pétalo (`petal_length`) está aproximadamente entre 2,5 y 5 centímetros
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`iris` tiene valores nulos (`nan`) en sus columnas"
+  checked: false
+name: Un ojo en el Iris
