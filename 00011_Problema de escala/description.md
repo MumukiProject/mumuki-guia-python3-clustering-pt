@@ -9,5 +9,5 @@ scaler = StandardScaler()
 scaled_iris = scaler.fit_transform(iris)
 ```
 
-> Execute este código no seu cuaderno. Que fez? Como ficaram os dados?
+> Execute este código no seu caderno. Que fez? Como ficaram os dados?
 
