@@ -7,5 +7,5 @@ pd.DataFrame(iris_scaled, column=iris.columns)
 Ou ainda:
  
 ```python
-pd.DataFrame( iris_scaled, column= iris.columns).describe()
+pd.DataFrame(iris_scaled, column=iris.columns).describe()
 ```
