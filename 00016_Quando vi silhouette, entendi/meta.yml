@@ -24,4 +24,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '6'
   checked: true
-name: Fechamento de silhuetas
+name: Quando vi silhouette, entendi
