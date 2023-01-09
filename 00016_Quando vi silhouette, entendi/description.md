@@ -43,4 +43,4 @@ visualizer.fit (iris_scaling)
 
 > Vamos terminar nosso trabalho e terminar de definir se ficamos com `3` ou `5` como o valor de `k`!
 >
-> Faça os gráficos de silhueta para `k`, de `2` a `6`. :x: Qual `k` devemos **eliminar** com base neles?
+> Faça os gráficos de silhueta para `k`, de `2` a `6`. Qual `k` devemos **eliminar** :x: com base neles?
