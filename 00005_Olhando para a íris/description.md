@@ -7,11 +7,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn como sns
 
-de scipy.spatial.distance importar cdist
+from scipy.spatial.distance import cdist
 
-de sklearn.cluster importar KMeans
-de sklearn.preprocessing importar StandardScaler
-de sklearn.metrics importar silhouette_samples, silhouette_score
+from sklearn.cluster import import
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_samples, silhouette_score
 
 plt.rcParams['image.cmap'] = "bwr"
 plt.rcParams['savefig .bbox'] = "tight"
