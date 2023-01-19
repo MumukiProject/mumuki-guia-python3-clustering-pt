@@ -5,7 +5,7 @@ Para começar, vamos importar e configurar as bibliotecas `scikit-learn`, `panda
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn como sns
+import seaborn as sns
 
 from scipy.spatial.distance import cdist
 
