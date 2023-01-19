@@ -13,7 +13,7 @@ choices:
   value: "`iris` tem 4 colunas"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`iris` tem 5 coluna"
+  value: "`iris` tem 5 colunas"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`iris` contém informações para 150 observações"
