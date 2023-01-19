@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_samples, silhouette_score
 
 plt.rcParams['image.cmap'] = "bwr"
-plt.rcParams['savefig .bbox'] = "tight"
+plt.rcParams['savefig.bbox'] = "tight"
 plt.style.use('ggplot')
 ```
 
