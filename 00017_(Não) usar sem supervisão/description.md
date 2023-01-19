@@ -3,7 +3,7 @@ Quando buscamos fazer previsões, geralmente trabalhamos com algoritmos de **apr
 |              	  |   	Regressão          | 	 Classificação             |
 |-----------------|------------------------|-----------------------------|
 |➡️ Variável de saída|Contínuo             	|Discreto                 	 |
-|🔧 Ajuste        	|Tentativas de encontrar a linha de melhor ajuste, que prevê a saída com mais precisão|Tentativas de encontrar o limite de decisão, que pode dividir o conjunto de dados em diferentes classes |
+|🔧 Ajuste        	|Tenta de encontrar a linha de melhor ajuste, que prevê a saída com mais precisão|Tenta de encontrar o limite de decisão, que pode dividir o conjunto de dados em diferentes classes |
 |🔮 Previsão    	|Uma quantidade é prevista para as observações | As observações são rotuladas com uma de duas ou mais classes|
 
 Exemplos de regressão são os dois casos em que trabalhamos anteriormente: prever a progressão de uma determinada doença com base nos dados biomédicos dos pacientes :thermometer_face: ou o número de mensagens de texto que serão enviadas em um determinado ano :vibration_mode:. Mesmo problemas como estimar a temperatura do nosso planeta em um futuro próximo podem ser vistos como um problema de regressão 🌡.
