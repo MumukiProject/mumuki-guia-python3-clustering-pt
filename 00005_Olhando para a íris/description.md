@@ -5,11 +5,11 @@ Para começar, vamos importar e configurar as bibliotecas `scikit-learn`, `panda
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn como sns
 
 from scipy.spatial.distance import cdist
 
-from sklearn.cluster import import
+from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_samples, silhouette_score
 
