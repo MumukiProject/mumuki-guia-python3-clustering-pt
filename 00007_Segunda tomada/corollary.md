@@ -4,7 +4,7 @@ Muito bom! Nem todas as variáveis seguem a mesma distribuição. Na verdade, `s
 
 ...enquanto `petal_length` e `petal_width`, não:
 
-<img src=" https ://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/petal_length_hist_1672522445222.png" alt="petal_length_hist_1672522445222.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/petal_length_hist_1672522445222.png" alt="petal_length_hist_1672522445222.png" width="auto" height="auto">
 
 <img src= " https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/petal_width_hist_1672522456715.png" alt="petal_width_hist_1672522456715.png" width="auto" height="auto">
 
@@ -21,7 +21,7 @@ def e_no_parametrica(column):
 ...e chamando assim:
 
 ``` python
-ムe_no_parametrica("sepal_width")
+ム e_no_parametrica("sepal_width")
 False
 ム e_no_parametrica("petal_length")
 True
