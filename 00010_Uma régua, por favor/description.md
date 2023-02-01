@@ -34,7 +34,7 @@ Mas será que tem algo errado com essa definição?
 > Para descobrir-lo, tente calcular as distâncias entre todos eles...
 >
 > ```python
-> points = [(1.05, 200), (1.06, 100), (1.08, 500), (1.06, 300) ]
-> pd.DataFrame(cdist(points, points, 'euclidean'))
+> pontos = [(1.05, 200), (1.06, 100), (1.08, 500), (1.06, 300) ]
+> pd.DataFrame(cdist(pontos, pontos, 'euclidean'))
 > ```
 > ... e estude os resultados.
