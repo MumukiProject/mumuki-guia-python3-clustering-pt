@@ -1,6 +1,6 @@
 Muito bom! Nem todas as variáveis seguem a mesma distribuição. Na verdade, `sepal_width` segue uma distribuição _normal_ (ou paramétrica), que podemos reconhecer por ter um centro e ser simétrica...
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide- python3-clustering/master/assets/sepal_with_hist_1672522430362.png" alt="sepal_with_hist_1672522430362.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-clustering/master/assets/sepal_with_hist_1672522430362.png" alt="sepal_with_hist_1672522430362.png" width="auto" height="auto">
 
 ...enquanto `petal_length` e `petal_width`, não:
 
