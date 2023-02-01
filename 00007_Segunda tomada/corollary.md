@@ -14,7 +14,7 @@ Conforme mencionado na lição anterior, isso pode ser verificado mais formalmen
 from scipy import stats
 
 # Nota: as distribuições normais também são conhecidas como paramétricas.
-# Da mesma forma, aqueles que não, são conhecidos como não paramétricos
+# Da mesma forma, aqueles que não são normais, são conhecidos como não paramétricos
 def e_no_parametrica(column):
   return stats.shapiro(iris[column]).pvalue < 0.05
 ```
