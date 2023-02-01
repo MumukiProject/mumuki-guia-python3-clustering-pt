@@ -23,7 +23,7 @@ Como esta definição é tão útil, a biblioteca `scipy` já a suporta (na form
 # cdist retorna um array de comparações entre os pontos do primeiro argumento
 # e os do segundo argumento, mas neste caso estamos interessados apenas em seu primeiro e único valor
 # portanto usamos [0][0]
-ム cdist([(3, 4)], [(4, 5)], ' euclidean' )[0][0]
+ム cdist([(3, 4)], [(4, 5)], 'euclidean' )[0][0]
 1.4142135623730951 # porque 1.4142135623730951² = (3 - 4)² + (4 - 5)²
 ```
 
