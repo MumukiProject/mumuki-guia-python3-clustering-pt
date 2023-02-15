@@ -13,12 +13,12 @@ sns.pointplot(data = inertias, x = "k", y = "inertia")
 Por outro lado, lembre-se que você pode criar um `DataFrame` do zero usando `pd.DataFrame()` e então adicionar suas colunas, uma a uma. :arrows_counterclockwise: E se isso ficar complicado, você também pode converter uma lista de dicionários em um `DataFrame` assim:
 
 ```python
-ム pessoas = pd.DataFrame([
+ムpessoas = pd.DataFrame([
   {"name": "Dani", "age ": 31},
   {"nome": "Feli", "idade": 48},
   {"nome": "Umi", "idade": 25}
 ])
-ム pessoas
+ムpessoas
   nome idade
 0 Dani 31
 1 Feli 48

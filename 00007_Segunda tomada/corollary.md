@@ -21,11 +21,11 @@ def e_no_parametrica(column):
 ...e chamando assim:
 
 ``` python
-ム e_no_parametrica("sepal_width")
+ムe_no_parametrica("sepal_width")
 False
-ム e_no_parametrica("petal_length")
+ムe_no_parametrica("petal_length")
 True
-ム e_no_parametrica("petal_width")
+ムe_no_parametrica("petal_width")
 True
 ```
 

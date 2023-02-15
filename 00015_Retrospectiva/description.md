@@ -1,7 +1,7 @@
 Para avaliar o quão bem nosso clustering funcionou e se o número de clusters é adequado, podemos calcular o quão compactos são os clusters resultantes. Partindo da base de que um agrupamento é melhor se todos os elementos do grupo estiverem o mais próximo possível do seu centro, podemos somar as distâncias de cada ponto ao seu respectivo centro e usar isso como medida. Este valor é chamado _inertia_ e pode ser obtido fazendo:
 
 ```python
-ム kmeans.inertia_
+ムkmeans.inertia_
 139.82049635974974
 ```
 
