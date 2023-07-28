@@ -8,17 +8,14 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`petal_width` e `petal_length` são altamente correlacionadas"
+- value: "`petal_width` e `petal_length` são altamente correlacionadas"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sepal_width` e `sepal_length` são altamente correlacionadas"
+- value: "`sepal_width` e `sepal_length` são altamente correlacionadas"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sepal_length` e `petal_width` são altamente correlacionadas"
+- value: "`sepal_length` e `petal_width` são altamente correlacionadas"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`petal_length` e `sepal_length` são correlacionadas"
+- value: "`petal_length` e `sepal_length` são correlacionadas"
   checked: true
 name: Relacionando tudo

@@ -8,14 +8,12 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: O número de divisões (barras) aumenta
+- value: O número de divisões (barras) aumenta
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: O número de divisões (barras) permanece constante
+- value: O número de divisões (barras) permanece constante
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: O número de divisões (barras) diminui
+- value: O número de divisões (barras) diminui
   checked: true
 name: Na perspectiva da abelha
